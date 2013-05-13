@@ -1,0 +1,20 @@
+Use this README file to introduce your application and point to useful places in the API for learning more.
+Run "rake doc:app" to generate API documentation for your models, controllers, helpers, and libraries.
+
+1. A user will be able to give permission to his Facebook Page and Twitter account using Oauth
+
+2. Once done, the program will fetch following data from Facebook Page
+Number of Fans
+Number of Posts by admin
+Number of Likes on Posts
+Number of Shares on Posts
+Number of Comments on Posts
+Number of Posts by fans
+3. The program will fetch following data from Twitter account
+
+Number of Followers
+Number of mentions
+Number of Retweets
+4. Store this data in table with date. We want to fetch this data every single day and there by end up showing analytics difference across time. For now, you can add some test data.
+
+5. Javascript test. Plot this data as you think right using http://www.amcharts.com/download/
